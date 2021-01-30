@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Sample Test Suite",
+    "children" : [ {
+      "name" : "Test1",
+      "uid" : "9995c2f81723c1eb",
+      "parentUid" : "7697bbb2192a24853a55a1caf37c9136",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022415965,
+        "stop" : 1612022420102,
+        "duration" : 4137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test2",
+      "uid" : "cd1e8e49421e2e5f",
+      "parentUid" : "7697bbb2192a24853a55a1caf37c9136",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612022420102,
+        "stop" : 1612022423329,
+        "duration" : 3227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7697bbb2192a24853a55a1caf37c9136"
+  } ]
+}

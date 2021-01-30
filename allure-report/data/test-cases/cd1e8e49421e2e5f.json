@@ -1,0 +1,85 @@
+{
+  "uid" : "cd1e8e49421e2e5f",
+  "name" : "Test2",
+  "fullName" : "Sample Test Suite.Test2",
+  "historyId" : "ba35bf617095989d0a96ca0c1346e9ce",
+  "time" : {
+    "start" : 1612022420102,
+    "stop" : 1612022423329,
+    "duration" : 3227
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"\n                    at Object.test (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test1.spec.js:46:23)\n                    at processTicksAndRejections (internal/process/next_tick.js:81:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test2"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25f7b17aaee6dcc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022365333,
+        "stop" : 1612022369032,
+        "duration" : 3699
+      }
+    }, {
+      "uid" : "300f9b5e0092c07a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022317423,
+        "stop" : 1612022320385,
+        "duration" : 2962
+      }
+    }, {
+      "uid" : "c1e1ec59edff5daa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022235963,
+        "stop" : 1612022238927,
+        "duration" : 2964
+      }
+    }, {
+      "uid" : "e674a6201520fa41",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612022074041,
+        "stop" : 1612022077068,
+        "duration" : 3027
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cd1e8e49421e2e5f.json",
+  "parameterValues" : [ ]
+}

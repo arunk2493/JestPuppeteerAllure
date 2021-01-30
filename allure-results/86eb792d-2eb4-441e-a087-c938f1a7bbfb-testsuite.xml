@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612022699011' stop='1612022705625'>
+    <name>Sample Test Suite</name>
+    <title>Sample Test Suite</title>
+    <test-cases>
+        <test-case start='1612022699011' status='passed' stop='1612022702782'>
+            <name>Test1</name>
+            <title>Test1</title>
+            <labels>
+                <label name='epic' value='Login'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1612022702457' status='passed' stop='1612022702459'>
+                    <name>Verify the Error Message</name>
+                    <title>Verify the Error Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='ScreenShot' source='dff36c9b-5283-4154-b86d-1fca18ee9a9b-attachment.png' type='image/png' size='38448'/>
+            </attachments>
+            <description type='text'>Start Assertion</description>
+        </test-case>
+        <test-case start='1612022702782' status='failed' stop='1612022705625'>
+            <name>Test2</name>
+            <title>Test2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Incorrect username or passwo"
+                Received: "Incorrect username or password."</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Incorrect username or passwo"
+                Received: "Incorrect username or password."
+                    at Object.test (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test1.spec.js:49:23)
+                    at processTicksAndRejections (internal/process/next_tick.js:81:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

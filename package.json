@@ -1,0 +1,38 @@
+{
+  "name": "jestpptr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose & npm run generatereport & npm run generatehtml",
+    "generatereport": "allure serve allure-results",
+    "generatehtml": "allure generate --clean",
+    "noreport": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunk2493/JestPuppeteerAllure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunk2493/JestPuppeteerAllure/issues"
+  },
+  "homepage": "https://github.com/arunk2493/JestPuppeteerAllure#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@types/jest": "^26.0.20",
+    "@types/puppeteer": "^5.4.2",
+    "babel-loader": "^8.2.2",
+    "jest": "^26.6.3",
+    "jest-allure": "^0.1.3",
+    "puppeteer": "^5.5.0",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "jest-puppeteer-allure": "^1.4.0"
+  }
+}

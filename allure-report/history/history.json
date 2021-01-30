@@ -1,0 +1,41 @@
+{
+  "ba35bf617095989d0a96ca0c1346e9ce" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd1e8e49421e2e5f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612022420102,
+        "stop" : 1612022423329,
+        "duration" : 3227
+      }
+    } ]
+  },
+  "b05b8ed9471af00ced879943856ea094" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9995c2f81723c1eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022415965,
+        "stop" : 1612022420102,
+        "duration" : 4137
+      }
+    } ]
+  }
+}
