@@ -1,5 +1,5 @@
 {
-  "uid" : "cd1e8e49421e2e5f",
+  "uid" : "de71a5aa449aab5b",
   "name" : "Test2",
   "fullName" : "Sample Test Suite.Test2",
   "historyId" : "ba35bf617095989d0a96ca0c1346e9ce",
@@ -35,51 +35,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "25f7b17aaee6dcc3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612022365333,
-        "stop" : 1612022369032,
-        "duration" : 3699
-      }
-    }, {
-      "uid" : "300f9b5e0092c07a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612022317423,
-        "stop" : 1612022320385,
-        "duration" : 2962
-      }
-    }, {
-      "uid" : "c1e1ec59edff5daa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612022235963,
-        "stop" : 1612022238927,
-        "duration" : 2964
-      }
-    }, {
-      "uid" : "e674a6201520fa41",
-      "status" : "failed",
-      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
-      "time" : {
-        "start" : 1612022074041,
-        "stop" : 1612022077068,
-        "duration" : 3027
-      }
-    } ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cd1e8e49421e2e5f.json",
+  "source" : "de71a5aa449aab5b.json",
   "parameterValues" : [ ]
 }

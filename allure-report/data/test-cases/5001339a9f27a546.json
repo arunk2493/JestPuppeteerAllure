@@ -1,5 +1,5 @@
 {
-  "uid" : "9995c2f81723c1eb",
+  "uid" : "5001339a9f27a546",
   "name" : "Test1",
   "fullName" : "Sample Test Suite.Test1",
   "historyId" : "b05b8ed9471af00ced879943856ea094",
@@ -18,17 +18,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d20042713d3096ef",
+      "uid" : "387fcb57bcaa989",
       "name" : "ScreenShot",
-      "source" : "d20042713d3096ef.png",
+      "source" : "387fcb57bcaa989.png",
       "type" : "image/png",
       "size" : 38448
     } ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 0
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -49,46 +49,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "ac76ecf1b90d9c9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612022361142,
-        "stop" : 1612022365333,
-        "duration" : 4191
-      }
-    }, {
-      "uid" : "a31df7fcd639b79",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612022313830,
-        "stop" : 1612022317423,
-        "duration" : 3593
-      }
-    }, {
-      "uid" : "88e9886c868f9bfb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612022232340,
-        "stop" : 1612022235963,
-        "duration" : 3623
-      }
-    }, {
-      "uid" : "35d9f6a010011442",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612022070871,
-        "stop" : 1612022074041,
-        "duration" : 3170
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9995c2f81723c1eb.json",
+  "source" : "5001339a9f27a546.json",
   "parameterValues" : [ ]
 }

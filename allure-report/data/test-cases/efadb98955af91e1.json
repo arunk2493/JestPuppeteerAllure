@@ -1,12 +1,12 @@
 {
-  "uid" : "25f7b17aaee6dcc3",
+  "uid" : "efadb98955af91e1",
   "name" : "Test2",
   "fullName" : "Sample Test Suite.Test2",
   "historyId" : "ba35bf617095989d0a96ca0c1346e9ce",
   "time" : {
-    "start" : 1612022365333,
-    "stop" : 1612022369032,
-    "duration" : 3699
+    "start" : 1612022317423,
+    "stop" : 1612022320385,
+    "duration" : 2962
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -39,6 +39,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "25f7b17aaee6dcc3.json",
+  "source" : "efadb98955af91e1.json",
   "parameterValues" : [ ]
 }

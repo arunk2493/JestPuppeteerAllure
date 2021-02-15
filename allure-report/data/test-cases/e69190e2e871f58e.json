@@ -1,0 +1,76 @@
+{
+  "uid" : "e69190e2e871f58e",
+  "name" : "Test1",
+  "fullName" : "Sample Test Suite.Test1",
+  "historyId" : "b05b8ed9471af00ced879943856ea094",
+  "time" : {
+    "start" : 1612022663696,
+    "stop" : 1612022667030,
+    "duration" : 3334
+  },
+  "description" : "Start Assertion",
+  "descriptionHtml" : "<p>Start Assertion</p>\n",
+  "status" : "failed",
+  "statusMessage" : "ReferenceError: Status is not defined",
+  "statusTrace" : "ReferenceError: Status is not defined\n                    at Object.test (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test1.spec.js:25:26)\n                    at processTicksAndRejections (internal/process/next_tick.js:81:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "ReferenceError: Status is not defined",
+    "statusTrace" : "ReferenceError: Status is not defined\n                    at Object.test (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test1.spec.js:25:26)\n                    at processTicksAndRejections (internal/process/next_tick.js:81:5)",
+    "steps" : [ {
+      "name" : "Verify the Error Message",
+      "time" : {
+        "start" : 1612022667027,
+        "stop" : 0,
+        "duration" : -1612022667027
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Login"
+  }, {
+    "name" : "suite",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e69190e2e871f58e.json",
+  "parameterValues" : [ ]
+}

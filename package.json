@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose & npm run generatereport & npm run generatehtml",
+    "test": "jest --verbose &  npm run generatehtml",
     "generatereport": "allure serve allure-results",
     "generatehtml": "allure generate --clean",
-    "noreport": "jest --verbose"
+    "noreport": "jest --verbose --testTimeout=30000"
   },
   "repository": {
     "type": "git",

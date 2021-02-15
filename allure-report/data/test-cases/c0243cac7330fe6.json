@@ -1,5 +1,5 @@
 {
-  "uid" : "88e9886c868f9bfb",
+  "uid" : "c0243cac7330fe6",
   "name" : "Test1",
   "fullName" : "Sample Test Suite.Test1",
   "historyId" : "b05b8ed9471af00ced879943856ea094",
@@ -18,17 +18,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f7ec39c49449f07d",
+      "uid" : "e12ade9ff1c45974",
       "name" : "ScreenShot",
-      "source" : "f7ec39c49449f07d.png",
+      "source" : "e12ade9ff1c45974.png",
       "type" : "image/png",
       "size" : 38448
     } ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 0
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "88e9886c868f9bfb.json",
+  "source" : "c0243cac7330fe6.json",
   "parameterValues" : [ ]
 }

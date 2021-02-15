@@ -5,26 +5,26 @@
     "name" : "Sample Test Suite",
     "children" : [ {
       "name" : "Test1",
-      "uid" : "9995c2f81723c1eb",
+      "uid" : "cee9942f6570fe42",
       "parentUid" : "7697bbb2192a24853a55a1caf37c9136",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1612022415965,
-        "stop" : 1612022420102,
-        "duration" : 4137
+        "start" : 1613149907757,
+        "stop" : 1613149912766,
+        "duration" : 5009
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Test2",
-      "uid" : "cd1e8e49421e2e5f",
+      "uid" : "29f076d468e56c9",
       "parentUid" : "7697bbb2192a24853a55a1caf37c9136",
       "status" : "failed",
       "time" : {
-        "start" : 1612022420102,
-        "stop" : 1612022423329,
-        "duration" : 3227
+        "start" : 1613149912766,
+        "stop" : 1613149916461,
+        "duration" : 3695
       },
       "flaky" : false,
       "newFailed" : false,

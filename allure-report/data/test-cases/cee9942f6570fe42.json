@@ -1,0 +1,197 @@
+{
+  "uid" : "cee9942f6570fe42",
+  "name" : "Test1",
+  "fullName" : "Sample Test Suite.Test1",
+  "historyId" : "b05b8ed9471af00ced879943856ea094",
+  "time" : {
+    "start" : 1613149907757,
+    "stop" : 1613149912766,
+    "duration" : 5009
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: \n                    at new Spec (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n                    at new Spec (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)\n                    at specFactory (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24)\n                    at Env.it (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24)\n                    at Env.it (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23)\n                    at test (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n                    at Suite.Object.<anonymous>.describe (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test1.spec.js:5:5)\n                    at addSpecsToSuite (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n                    at Env.describe (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n                    at describe (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n                    at Object.<anonymous> (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test1.spec.js:3:1)\n                    at Runtime._execModule (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-runtime/build/index.js:1299:24)\n                    at Runtime._loadModule (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-runtime/build/index.js:898:12)\n                    at Runtime.requireModule (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-runtime/build/index.js:746:10)\n                    at jasmine2 (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-jasmine2/build/index.js:230:13)\n                    at runTestInternal (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/node_modules/jest-runner/build/runTest.js:380:22)\n                    at processTicksAndRejections (internal/process/next_tick.js:81:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "32b37a1d18056894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612877156529,
+        "stop" : 1612877164514,
+        "duration" : 7985
+      }
+    }, {
+      "uid" : "703d0a056bcdd141",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876878461,
+        "stop" : 1612876883480,
+        "duration" : 5019
+      }
+    }, {
+      "uid" : "75dcc0ec8f738d37",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876721610,
+        "stop" : 1612876726630,
+        "duration" : 5020
+      }
+    }, {
+      "uid" : "11fc87fe2990233c",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876580120,
+        "stop" : 1612876585227,
+        "duration" : 5107
+      }
+    }, {
+      "uid" : "4245dbe7ca7e5161",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876404709,
+        "stop" : 1612876409728,
+        "duration" : 5019
+      }
+    }, {
+      "uid" : "de450bbd7267afd9",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876295776,
+        "stop" : 1612876300786,
+        "duration" : 5010
+      }
+    }, {
+      "uid" : "52c1e775704883a4",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876165127,
+        "stop" : 1612876170146,
+        "duration" : 5019
+      }
+    }, {
+      "uid" : "8d4c72bf533e24eb",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876086164,
+        "stop" : 1612876091180,
+        "duration" : 5016
+      }
+    }, {
+      "uid" : "ea08127af19fe884",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876013010,
+        "stop" : 1612876018024,
+        "duration" : 5014
+      }
+    }, {
+      "uid" : "7d196c7d28c9d566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612182193762,
+        "stop" : 1612182197543,
+        "duration" : 3781
+      }
+    }, {
+      "uid" : "cdd2d1db524ef3ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022699011,
+        "stop" : 1612022702782,
+        "duration" : 3771
+      }
+    }, {
+      "uid" : "e69190e2e871f58e",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: Status is not defined",
+      "time" : {
+        "start" : 1612022663696,
+        "stop" : 1612022667030,
+        "duration" : 3334
+      }
+    }, {
+      "uid" : "5001339a9f27a546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022415965,
+        "stop" : 1612022420102,
+        "duration" : 4137
+      }
+    }, {
+      "uid" : "4c063f8cc5b139eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022361142,
+        "stop" : 1612022365333,
+        "duration" : 4191
+      }
+    }, {
+      "uid" : "d516b0c9d7b71c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022313830,
+        "stop" : 1612022317423,
+        "duration" : 3593
+      }
+    }, {
+      "uid" : "c0243cac7330fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022232340,
+        "stop" : 1612022235963,
+        "duration" : 3623
+      }
+    }, {
+      "uid" : "e180b30a712fe71c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022070871,
+        "stop" : 1612022074041,
+        "duration" : 3170
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cee9942f6570fe42.json",
+  "parameterValues" : [ ]
+}
