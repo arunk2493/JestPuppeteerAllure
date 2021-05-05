@@ -1,0 +1,78 @@
+{
+  "uid" : "764ca6ca54840f75",
+  "name" : "Test1",
+  "fullName" : "Sample Test Suite.Test1",
+  "historyId" : "b05b8ed9471af00ced879943856ea094",
+  "time" : {
+    "start" : 1612877156529,
+    "stop" : 1612877164514,
+    "duration" : 7985
+  },
+  "description" : "Start Assertion",
+  "descriptionHtml" : "<p>Start Assertion</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify the Error Message",
+      "time" : {
+        "start" : 1612877163947,
+        "stop" : 1612877163952,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d7c4b9def987fb37",
+      "name" : "ScreenShot",
+      "source" : "d7c4b9def987fb37.png",
+      "type" : "image/png",
+      "size" : 38448
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Login"
+  }, {
+    "name" : "suite",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "764ca6ca54840f75.json",
+  "parameterValues" : [ ]
+}

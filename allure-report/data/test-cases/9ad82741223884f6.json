@@ -1,0 +1,52 @@
+{
+  "uid" : "9ad82741223884f6",
+  "name" : "Test4",
+  "fullName" : "Sample Test Suite2.Test4",
+  "historyId" : "da09e622415027688cc1e95671f81a9b",
+  "time" : {
+    "start" : 1616756508645,
+    "stop" : 1616756511368,
+    "duration" : 2723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"\n                    at Object.<anonymous> (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test2.spec.js:49:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:88:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sample Test Suite2"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite2"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test4"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ad82741223884f6.json",
+  "parameterValues" : [ ]
+}

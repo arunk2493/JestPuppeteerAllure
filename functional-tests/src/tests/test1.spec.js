@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-describe("Sample Test Suite",()=>{
+describe("Sample Test Suite1",()=>{
 
     test("Test1",async ()=>{
         const browser = await puppeteer.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true,args:[

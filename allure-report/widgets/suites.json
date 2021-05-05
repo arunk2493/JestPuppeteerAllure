@@ -1,13 +1,35 @@
 {
-  "total" : 1,
+  "total" : 3,
   "items" : [ {
     "uid" : "e85399060d665fe98ba66e044f5bdad5",
     "name" : "Sample Test Suite",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1020d5ef4340979536f8ac362d758122",
+    "name" : "Sample Test Suite2",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "17c5b7c7d85d8d8b072d5313f62ed706",
+    "name" : "Sample Test Suite1",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 2
     }

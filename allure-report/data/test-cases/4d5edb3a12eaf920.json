@@ -1,0 +1,270 @@
+{
+  "uid" : "4d5edb3a12eaf920",
+  "name" : "Test1",
+  "fullName" : "Sample Test Suite.Test1",
+  "historyId" : "b05b8ed9471af00ced879943856ea094",
+  "time" : {
+    "start" : 1616756239813,
+    "stop" : 1616756243112,
+    "duration" : 3299
+  },
+  "description" : "Start Assertion",
+  "descriptionHtml" : "<p>Start Assertion</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify the Error Message",
+      "time" : {
+        "start" : 1616756242813,
+        "stop" : 1616756242814,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a1808b1fb2d2fc49",
+      "name" : "ScreenShot",
+      "source" : "a1808b1fb2d2fc49.png",
+      "type" : "image/png",
+      "size" : 37544
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Login"
+  }, {
+    "name" : "suite",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9d0b0497effaec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616756232975,
+        "stop" : 1616756236797,
+        "duration" : 3822
+      }
+    }, {
+      "uid" : "cbfa2df9b857e638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613149940980,
+        "stop" : 1613149945016,
+        "duration" : 4036
+      }
+    }, {
+      "uid" : "93fafecd820817ee",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1613149907757,
+        "stop" : 1613149912766,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "764ca6ca54840f75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612877156529,
+        "stop" : 1612877164514,
+        "duration" : 7985
+      }
+    }, {
+      "uid" : "7fe9a49acf8a0dd4",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876878461,
+        "stop" : 1612876883480,
+        "duration" : 5019
+      }
+    }, {
+      "uid" : "b46119b9b87ed024",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876721610,
+        "stop" : 1612876726630,
+        "duration" : 5020
+      }
+    }, {
+      "uid" : "214ba1c79153fa48",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876580120,
+        "stop" : 1612876585227,
+        "duration" : 5107
+      }
+    }, {
+      "uid" : "7c8b8581f0ed246",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876404709,
+        "stop" : 1612876409728,
+        "duration" : 5019
+      }
+    }, {
+      "uid" : "fac8f9159410f1ef",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876295776,
+        "stop" : 1612876300786,
+        "duration" : 5010
+      }
+    }, {
+      "uid" : "7404fd0b1cd1091a",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876165127,
+        "stop" : 1612876170146,
+        "duration" : 5019
+      }
+    }, {
+      "uid" : "ee52ce1a9d0c82e1",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876086164,
+        "stop" : 1612876091180,
+        "duration" : 5016
+      }
+    }, {
+      "uid" : "9d9a765319786592",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876013010,
+        "stop" : 1612876018024,
+        "duration" : 5014
+      }
+    }, {
+      "uid" : "a36267f8a2815ea8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612182193762,
+        "stop" : 1612182197543,
+        "duration" : 3781
+      }
+    }, {
+      "uid" : "9a53aeb6ae38cd00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022699011,
+        "stop" : 1612022702782,
+        "duration" : 3771
+      }
+    }, {
+      "uid" : "6ee0a6fd0051df6a",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: Status is not defined",
+      "time" : {
+        "start" : 1612022663696,
+        "stop" : 1612022667030,
+        "duration" : 3334
+      }
+    }, {
+      "uid" : "a0ab659b931f819c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022415965,
+        "stop" : 1612022420102,
+        "duration" : 4137
+      }
+    }, {
+      "uid" : "7955c2178648476d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022361142,
+        "stop" : 1612022365333,
+        "duration" : 4191
+      }
+    }, {
+      "uid" : "b423f9b70dd011e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022313830,
+        "stop" : 1612022317423,
+        "duration" : 3593
+      }
+    }, {
+      "uid" : "df281a02bdfe9eb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022232340,
+        "stop" : 1612022235963,
+        "duration" : 3623
+      }
+    }, {
+      "uid" : "a9feb790834491aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022070871,
+        "stop" : 1612022074041,
+        "duration" : 3170
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cee9942f6570fe42",
+        "status" : "failed",
+        "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1613149907757,
+          "stop" : 1613149912766,
+          "duration" : 5009
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4d5edb3a12eaf920.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "a0ab659b931f819c",
+  "name" : "Test1",
+  "fullName" : "Sample Test Suite.Test1",
+  "historyId" : "b05b8ed9471af00ced879943856ea094",
+  "time" : {
+    "start" : 1612022415965,
+    "stop" : 1612022420102,
+    "duration" : 4137
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "721ab90a532bb83f",
+      "name" : "ScreenShot",
+      "source" : "721ab90a532bb83f.png",
+      "type" : "image/png",
+      "size" : 38448
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test1"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0ab659b931f819c.json",
+  "parameterValues" : [ ]
+}

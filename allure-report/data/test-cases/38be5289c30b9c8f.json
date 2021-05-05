@@ -1,0 +1,249 @@
+{
+  "uid" : "38be5289c30b9c8f",
+  "name" : "Test2",
+  "fullName" : "Sample Test Suite.Test2",
+  "historyId" : "ba35bf617095989d0a96ca0c1346e9ce",
+  "time" : {
+    "start" : 1616756243113,
+    "stop" : 1616756246066,
+    "duration" : 2953
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"\n                    at Object.<anonymous> (/Users/arunkumaraswamy/Documents/projects/Study/Puppeteer/JestPuppeteerAllure/functional-tests/src/tests/test1.spec.js:49:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:88:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test2"
+  }, {
+    "name" : "package",
+    "value" : "Sample Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e1209147752412a0",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1616756236797,
+        "stop" : 1616756239558,
+        "duration" : 2761
+      }
+    }, {
+      "uid" : "e44cfd26568e4ddd",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1613149945017,
+        "stop" : 1613149948888,
+        "duration" : 3871
+      }
+    }, {
+      "uid" : "978a6b59ca40fe85",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1613149912766,
+        "stop" : 1613149916461,
+        "duration" : 3695
+      }
+    }, {
+      "uid" : "2bcfba748002754e",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612877164514,
+        "stop" : 1612877170910,
+        "duration" : 6396
+      }
+    }, {
+      "uid" : "168ba13972c3e72c",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876883481,
+        "stop" : 1612876888492,
+        "duration" : 5011
+      }
+    }, {
+      "uid" : "b71afffd34ef7613",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876726630,
+        "stop" : 1612876731635,
+        "duration" : 5005
+      }
+    }, {
+      "uid" : "d8e1672e0dab9395",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876585228,
+        "stop" : 1612876590237,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "8176b85429ef0e56",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876409728,
+        "stop" : 1612876414760,
+        "duration" : 5032
+      }
+    }, {
+      "uid" : "70d17019b770204f",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876300786,
+        "stop" : 1612876305792,
+        "duration" : 5006
+      }
+    }, {
+      "uid" : "abe219ab1bc1ae57",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876170146,
+        "stop" : 1612876175148,
+        "duration" : 5002
+      }
+    }, {
+      "uid" : "5a1beda31396d37c",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876091180,
+        "stop" : 1612876096185,
+        "duration" : 5005
+      }
+    }, {
+      "uid" : "e6d1abcbb25b2f59",
+      "status" : "failed",
+      "statusDetails" : ": Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1612876018024,
+        "stop" : 1612876023030,
+        "duration" : 5006
+      }
+    }, {
+      "uid" : "e342047d86968501",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612182197544,
+        "stop" : 1612182200527,
+        "duration" : 2983
+      }
+    }, {
+      "uid" : "33ed99403d87c8e8",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612022702782,
+        "stop" : 1612022705625,
+        "duration" : 2843
+      }
+    }, {
+      "uid" : "41c6e34f143c7c0f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612022667030,
+        "stop" : 1612022670311,
+        "duration" : 3281
+      }
+    }, {
+      "uid" : "4f8809f8054805da",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612022420102,
+        "stop" : 1612022423329,
+        "duration" : 3227
+      }
+    }, {
+      "uid" : "2a83549ea791dcc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022365333,
+        "stop" : 1612022369032,
+        "duration" : 3699
+      }
+    }, {
+      "uid" : "184ee5361ab24da6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022317423,
+        "stop" : 1612022320385,
+        "duration" : 2962
+      }
+    }, {
+      "uid" : "66be1c311b726739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612022235963,
+        "stop" : 1612022238927,
+        "duration" : 2964
+      }
+    }, {
+      "uid" : "e49e6b28a59e174e",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+      "time" : {
+        "start" : 1612022074041,
+        "stop" : 1612022077068,
+        "duration" : 3027
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "29f076d468e56c9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Incorrect username or passwo\"\n                Received: \"Incorrect username or password.\"",
+        "time" : {
+          "start" : 1613149912766,
+          "stop" : 1613149916461,
+          "duration" : 3695
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "38be5289c30b9c8f.json",
+  "parameterValues" : [ ]
+}
